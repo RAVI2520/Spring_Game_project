@@ -9,7 +9,12 @@ public class App02HelloWorldSpring {
 		var context = new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
 //		2 : Configure the things that we want spring to manage
 //		   - @Configuration
+		
+//		3 : Retrieving beans managed by Spring  
 		System.out.println(context.getBean("name"));
+		System.out.println(context.getBean("age"));
+		System.out.println(context.getBean("person"));
+		System.out.println(context.getBean(Address.class));
 		context.close();
 
 	}
