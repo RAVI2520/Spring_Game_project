@@ -4,7 +4,7 @@ import com.marvellous.infosystem.demoproject.game.MarioGame;
 import com.marvellous.infosystem.demoproject.game.SuperContraGame;
 import com.marvellous.infosystem.demoproject.runner.GameRunner;
 
-public class AppGamingBasic {
+public class App01GamingBasic {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
