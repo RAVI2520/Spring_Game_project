@@ -1,4 +1,4 @@
-package com.marvellous.infosystem.demoproject;
+package com.marvellous.infosystem.implementgameusing.spring;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -59,11 +59,11 @@ public class HelloWorldConfiguration {
 		return new Person(name(),age(),address);
 	}
 	
-	@Bean
-	@Primary
-	public Person personQualifierExample() {
-		return new Person(name() ,age(),addressPune());
-	}
+//	@Bean
+//	@Primary
+//	public Person personQualifierExample() {
+//		return new Person(name() ,age(),address);
+//	}
 	
 
 }
